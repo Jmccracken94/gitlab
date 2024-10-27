@@ -1,0 +1,8 @@
+2024-10-27_04:14:35.42742 {"time":"2024-10-27T04:14:35.427313367Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v17.3.6/v17.3.6"}
+2024-10-27_04:14:35.42936 {"time":"2024-10-27T04:14:35.429327304Z","level":"INFO","msg":"Using own private API URL","url":"grpc://localhost:8155"}
+2024-10-27_04:14:35.42977 {"time":"2024-10-27T04:14:35.429742853Z","level":"INFO","msg":"AutoFlow module is not enabled in config","mod_name":"autoflow"}
+2024-10-27_04:14:35.43156 {"time":"2024-10-27T04:14:35.431481875Z","level":"INFO","msg":"Observability endpoint is up","mod_name":"observability","net_network":"tcp","net_address":"127.0.0.1:8151"}
+2024-10-27_04:14:35.43190 {"time":"2024-10-27T04:14:35.431836764Z","level":"INFO","msg":"API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8153"}
+2024-10-27_04:14:35.43243 {"time":"2024-10-27T04:14:35.432344294Z","level":"INFO","msg":"Agentk API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8150","is_websocket":true}
+2024-10-27_04:14:35.43246 {"time":"2024-10-27T04:14:35.432394318Z","level":"INFO","msg":"Kubernetes API endpoint is up","mod_name":"kubernetes_api","net_network":"tcp","net_address":"127.0.0.1:8154"}
+2024-10-27_04:14:35.43260 {"time":"2024-10-27T04:14:35.432518329Z","level":"INFO","msg":"Private API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8155"}

@@ -1,0 +1,13 @@
+2024-10-27_04:35:46.17387 LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-10-27_04:35:46.18165 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2024-10-27_04:35:46.19702 LOG:  database system was interrupted; last known up at 2024-10-27 04:35:04 GMT
+2024-10-27_04:35:48.99108 LOG:  database system was not properly shut down; automatic recovery in progress
+2024-10-27_04:35:48.99703 LOG:  invalid record length at 0/6D61360: wanted 24, got 0
+2024-10-27_04:35:48.99704 LOG:  redo is not required
+2024-10-27_04:35:49.03483 LOG:  database system is ready to accept connections
+2024-10-27_05:10:19.20118 ERROR:  duplicate key value violates unique constraint "index_programming_languages_on_name"
+2024-10-27_05:10:19.20130 DETAIL:  Key (name)=(Shell) already exists.
+2024-10-27_05:10:19.20131 STATEMENT:  /*application:sidekiq,correlation_id:01JB663GME2NHHZS0T1W932KMT,jid:57eebf839ad311e247af9c94,endpoint_id:DetectRepositoryLanguagesWorker,db_config_name:main*/ INSERT INTO "programming_languages" ("name", "color", "created_at") VALUES ('Shell', '#89e051', '2024-10-27 05:10:19.198989') RETURNING "id"
+2024-10-27_05:10:19.29363 ERROR:  duplicate key value violates unique constraint "index_programming_languages_on_name"
+2024-10-27_05:10:19.29368 DETAIL:  Key (name)=(Dockerfile) already exists.
+2024-10-27_05:10:19.29368 STATEMENT:  /*application:sidekiq,correlation_id:01JB663GME2NHHZS0T1W932KMT,jid:57eebf839ad311e247af9c94,endpoint_id:DetectRepositoryLanguagesWorker,db_config_name:main*/ INSERT INTO "programming_languages" ("name", "color", "created_at") VALUES ('Dockerfile', '#384d54', '2024-10-27 05:10:19.287622') RETURNING "id"
